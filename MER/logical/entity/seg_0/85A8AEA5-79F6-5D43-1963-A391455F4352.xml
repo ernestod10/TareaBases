@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85A8AEA5-79F6-5D43-1963-A391455F4352" name="Telefonos_Cliente">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:31:15 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero" id="02A9E94A-3B3B-319F-1BE0-A9F20D1D5121">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:31:28 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Cliente" id="C213451C-1E40-3179-5D17-78736AF8FE08">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:31:37 UTC</createdTime>
+<generatorID>AD3CAAB0-0846-EC23-7930-AA2C578F912F</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<referedAttribute>AA51BBC4-45E8-1675-0FA9-4E1FFCB9FFDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08532374-18D5-8597-C5B4-CACBF3A4A02B" name="Telefonos_Cliente PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:31:33 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02A9E94A-3B3B-319F-1BE0-A9F20D1D5121</attributeRef>
+<attributeRef>C213451C-1E40-3179-5D17-78736AF8FE08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
