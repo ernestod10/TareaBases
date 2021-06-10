@@ -45,16 +45,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Telefono" id="6E52AC97-24F0-7198-6527-5B7273A10FEB">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:16:48 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="52FEE51F-3AFD-DE36-FF47-9F6125D85AB0" name="Dueño PK">
