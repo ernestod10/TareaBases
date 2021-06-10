@@ -11,8 +11,85 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>5EEED7A8-E227-4EE2-16A8-B4E10192FEB0</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Agencia" id="4A30C89E-E33C-34A9-BDAF-5F9456BBCADF">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:41:03 UTC</createdTime>
+<generatorID>3544C054-FBA5-7016-91D0-C02AA18EDEDB</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<referedAttribute>9944E63A-6EB6-80A7-C7B8-71B059BB8C6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_vendedor" id="04C8BD9E-8220-FE47-CD9D-B74F9C2499B8">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:47:30 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="21BB6CE7-5EAB-ED57-A25F-66BC7CF9708C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:47:37 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="F450E8B8-721B-FC2D-19C3-0A7D256F3B5E">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:47:39 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_inicio" id="130FEBF8-E7C3-8640-63F0-CF55A4C4635B">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:47:42 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D12A523-6A49-218E-6349-486FECC7A01C" name="Vendedor PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:48:10 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04C8BD9E-8220-FE47-CD9D-B74F9C2499B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

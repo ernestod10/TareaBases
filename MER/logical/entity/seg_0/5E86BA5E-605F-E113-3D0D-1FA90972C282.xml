@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77310113-BF5B-06BA-E456-288293CE0B37" name="Dueño">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5E86BA5E-605F-E113-3D0D-1FA90972C282" name="telefono_agencia">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 16:45:13 UTC</createdTime>
+<createdTime>2021-06-10 18:22:26 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
@@ -15,39 +15,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="55492102-30A3-B5E7-FF28-28F5A1DE925E">
+<Attribute name="ID_Agencia" id="398AA870-DFB5-AE7A-5711-0891EB043BAF">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:15:52 UTC</createdTime>
+<createdTime>2021-06-10 18:24:23 UTC</createdTime>
+<generatorID>EF7E3F09-0AC4-61A4-F629-256BBB1B8790</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
-<use>0</use>
+<referedAttribute>9944E63A-6EB6-80A7-C7B8-71B059BB8C6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="B87B3A11-32DD-A507-0CC6-257A18467A0D">
+<Attribute name="Numero" id="2F1FC873-76B7-C4B6-3512-1FB634832067">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:15:56 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Apellido" id="84D95230-A9E0-E62C-1A67-DA56C4D699F5">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:16:00 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Telefono" id="6E52AC97-24F0-7198-6527-5B7273A10FEB">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:16:48 UTC</createdTime>
+<createdTime>2021-06-10 18:25:38 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
@@ -57,16 +41,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="52FEE51F-3AFD-DE36-FF47-9F6125D85AB0" name="Dueño PK">
+<identifier id="324C66EB-6E5C-B463-897E-07BF8D2CE1F2" name="telefono_agencia PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:15:56 UTC</createdTime>
+<createdTime>2021-06-10 18:24:07 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>55492102-30A3-B5E7-FF28-28F5A1DE925E</attributeRef>
+<attributeRef>398AA870-DFB5-AE7A-5711-0891EB043BAF</attributeRef>
+<attributeRef>2F1FC873-76B7-C4B6-3512-1FB634832067</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

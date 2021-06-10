@@ -41,6 +41,28 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Nombre_Agencia" id="0866D0F5-8C60-E8C0-B6A4-AE1A13999E07">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:07:22 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Titular" id="70CC0BDA-4A17-3EF7-60DE-C0136062E1EF">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:19:44 UTC</createdTime>
+<generatorID>508250A3-A056-C92B-F9AB-F92210C4AF81</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<referedAttribute>356BAF74-E531-5FA3-5510-6817FD75DA4B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6FE3CBB4-9A9E-65A0-DAC2-6611B63F6C69" name="Agencia PK">

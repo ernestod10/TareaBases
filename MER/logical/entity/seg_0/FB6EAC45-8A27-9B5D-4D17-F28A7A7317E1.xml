@@ -14,4 +14,52 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Cliente" id="AA51BBC4-45E8-1675-0FA9-4E1FFCB9FFDB">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:53:55 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="80C48013-69E4-F1F3-DF66-0CB34D061E7C">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:23:03 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="C3683BFB-6A18-A896-5451-D018B2E5422D">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:23:06 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8FE3AD1-D5F6-EBD7-7390-8DCB107129A0" name="Cliente PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 17:54:04 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA51BBC4-45E8-1675-0FA9-4E1FFCB9FFDB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

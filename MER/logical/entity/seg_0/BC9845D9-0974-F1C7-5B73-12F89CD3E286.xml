@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C81F569-A727-676B-C36C-04A3F02175E4" name="Inmueble">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC9845D9-0974-F1C7-5B73-12F89CD3E286" name="Contrato">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 16:40:25 UTC</createdTime>
+<createdTime>2021-06-10 17:53:23 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
@@ -15,81 +15,105 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_lugar" id="451EE6CE-5FED-5D7A-909F-73978A031CF2">
+<Attribute name="ID_Inmueble" id="EE1806D9-B436-C153-1C26-E99534229E10">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 16:50:16 UTC</createdTime>
-<generatorID>35A93E49-AD86-5CDC-F43B-3FAA9C9157E2</generatorID>
+<createdTime>2021-06-10 18:14:10 UTC</createdTime>
+<generatorID>FCDEB23D-9E14-39FC-C60B-BF0DE4021631</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
-<referedAttribute>FA15162D-1381-DD11-833F-851D754B1EBA</referedAttribute>
+<referedAttribute>A05DC248-620A-A3A5-F0C8-42872A8C17B5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Agencia" id="9838BE89-CCA4-0DCC-BD2C-79BEF29781CB">
+<Attribute name="ID_vendedor" id="DD051407-97F2-1CC9-EC1F-FBE2F8CC6C7A">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 17:08:45 UTC</createdTime>
-<generatorID>B0DBBA26-2930-0E9D-F56F-0B05E9FD6F3E</generatorID>
+<createdTime>2021-06-10 18:26:33 UTC</createdTime>
+<generatorID>EA726A70-A1C4-9792-0126-C12667FFDCCF</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
-<referedAttribute>9944E63A-6EB6-80A7-C7B8-71B059BB8C6D</referedAttribute>
+<referedAttribute>04C8BD9E-8220-FE47-CD9D-B74F9C2499B8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Inmueble" id="A05DC248-620A-A3A5-F0C8-42872A8C17B5">
+<Attribute name="ID_Cliente" id="0E616703-89F1-0380-3E74-BE3FFA063801">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 17:08:54 UTC</createdTime>
+<createdTime>2021-06-10 18:26:36 UTC</createdTime>
+<generatorID>B062DF07-FA13-D8CF-ECAB-6CFB0BC9DDDA</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
+<referedAttribute>AA51BBC4-45E8-1675-0FA9-4E1FFCB9FFDB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Superficie" id="F2889FD9-F50B-0D69-7F13-03E94C51B749">
+<Attribute name="ID_Contrato" id="0B30FB1A-7601-E399-C6CD-826F4610E6BC">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:05:40 UTC</createdTime>
+<createdTime>2021-06-10 18:26:42 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="374B6887-6B95-858A-9931-AED0887258D5">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:27:29 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Avance" id="304810E2-2D1D-4FFF-36EB-BC453298180E">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:27:37 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID" id="27BF8BEC-9B41-A1F5-4060-6DD9EEE5D2A0">
+<Attribute name="Total" id="85AD4BDC-8AF2-D4E5-DFCD-D4E42E49E98A">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:16:04 UTC</createdTime>
-<generatorID>5606D17A-1038-E90F-993B-AC6891EB4438</generatorID>
+<createdTime>2021-06-10 18:27:42 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
-<referedAttribute>55492102-30A3-B5E7-FF28-28F5A1DE925E</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="850B3D1D-1E6A-953B-462B-F08DA9155742" name="Inmueble PK">
+<identifier id="7BF333C1-B314-558D-D2D9-6EC4C5521EDE" name="Contrato PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 17:09:00 UTC</createdTime>
+<createdTime>2021-06-10 18:14:03 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A05DC248-620A-A3A5-F0C8-42872A8C17B5</attributeRef>
+<attributeRef>EE1806D9-B436-C153-1C26-E99534229E10</attributeRef>
+<attributeRef>DD051407-97F2-1CC9-EC1F-FBE2F8CC6C7A</attributeRef>
+<attributeRef>0E616703-89F1-0380-3E74-BE3FFA063801</attributeRef>
+<attributeRef>0B30FB1A-7601-E399-C6CD-826F4610E6BC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
