@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9ABD0FDD-FA27-6C50-A569-1029AF21ADDB" name="Agencia">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5226D394-948C-6A0B-7740-31F0C5F5B210" name="Contrato">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 16:09:38 UTC</createdTime>
+<createdTime>2021-06-10 16:58:57 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
@@ -15,27 +15,15 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_lugar" id="802E2684-7E43-9D2E-885C-E51782660503">
+<Attribute name="ID_Inmueble" id="F12F753A-5097-8252-CE87-D808E07E31D5">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 16:50:19 UTC</createdTime>
-<generatorID>8F1280F4-2249-6677-BE53-A9073AC561C2</generatorID>
+<createdTime>2021-06-10 17:09:06 UTC</createdTime>
+<generatorID>E2794246-55FF-C0DE-1B10-D4D0F4AF7AFA</generatorID>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
-<referedAttribute>FA15162D-1381-DD11-833F-851D754B1EBA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Agencia" id="9944E63A-6EB6-80A7-C7B8-71B059BB8C6D">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-10 17:08:35 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
-</engineerTo>
+<referedAttribute>A05DC248-620A-A3A5-F0C8-42872A8C17B5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -43,16 +31,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6FE3CBB4-9A9E-65A0-DAC2-6611B63F6C69" name="Agencia PK">
+<identifier id="3DD143F7-068E-C52D-6A41-5D6433C3EB52" name="Contrato PK">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 17:08:41 UTC</createdTime>
+<createdTime>2021-06-10 17:09:00 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9944E63A-6EB6-80A7-C7B8-71B059BB8C6D</attributeRef>
+<attributeRef>F12F753A-5097-8252-CE87-D808E07E31D5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
