@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE8B5B5B-A0E3-E6AB-8E77-6E9F6A9D1368" name="Vendedor">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6B95E09-EF2E-DADD-03BC-C966EAC637AE" name="Titular">
 <createdBy>Personal</createdBy>
-<createdTime>2021-06-10 16:40:01 UTC</createdTime>
+<createdTime>2021-06-10 17:29:18 UTC</createdTime>
 <ownerDesignName>MER</ownerDesignName>
 <engineerTo>
 <item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
