@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E7A96E3-94B7-8B9B-8F81-0099801696DD" name="Cliente_Inmueble">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:46:40 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Cliente" id="376DD264-E05E-383F-527C-47E171786A68">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:48:10 UTC</createdTime>
+<generatorID>A2374BEF-23EA-14E0-0447-B9C52AA968CA</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<referedAttribute>AA51BBC4-45E8-1675-0FA9-4E1FFCB9FFDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Inmueble" id="7A5DFEFA-ECE6-F63F-2FBF-81881B63A225">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:48:14 UTC</createdTime>
+<generatorID>27C4DC14-5E8C-8835-63D1-D103D1AF0092</generatorID>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<referedAttribute>A05DC248-620A-A3A5-F0C8-42872A8C17B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2CE7126-8F20-8A4F-E843-07320CE8E70B" name="Cliente_Inmueble PK">
+<createdBy>Personal</createdBy>
+<createdTime>2021-06-10 18:48:10 UTC</createdTime>
+<ownerDesignName>MER</ownerDesignName>
+<engineerTo>
+<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>376DD264-E05E-383F-527C-47E171786A68</attributeRef>
+<attributeRef>7A5DFEFA-ECE6-F63F-2FBF-81881B63A225</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
