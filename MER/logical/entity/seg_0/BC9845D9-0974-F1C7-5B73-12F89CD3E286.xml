@@ -77,28 +77,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Avance" id="304810E2-2D1D-4FFF-36EB-BC453298180E">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:27:37 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Total" id="85AD4BDC-8AF2-D4E5-DFCD-D4E42E49E98A">
-<createdBy>Personal</createdBy>
-<createdTime>2021-06-10 18:27:42 UTC</createdTime>
-<ownerDesignName>MER</ownerDesignName>
-<engineerTo>
-<item key="75786A91-2BAA-7DBB-FD7F-DDE1B42A7A9B" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7BF333C1-B314-558D-D2D9-6EC4C5521EDE" name="Contrato PK">
